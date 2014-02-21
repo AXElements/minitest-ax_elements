@@ -4,9 +4,9 @@ Gem::Specification.new do |s|
   s.name     = 'minitest-ax_elements'
   s.version  = MiniTest::Accessibility::VERSION
 
-  s.summary     = 'MiniTest extensions for using AXElements'
+  s.summary     = 'MiniTest extensions for AXElements'
   s.description = <<-EOS
-MiniTest extensions for using AXElements
+MiniTest extensions for AXElements
   EOS
   s.authors     = ['Mark Rada']
   s.email       = 'mrada@marketcircle.com'
@@ -23,9 +23,6 @@ MiniTest extensions for using AXElements
     [ 'test/helper.rb' ]
 
 
-  s.add_runtime_dependency 'AXElements', '1.0.0.beta'
-  s.add_runtime_dependency 'minitest',   '~> 4.3'
-
-  s.add_development_dependency 'yard',     '~> 0.8.3'
-  s.add_development_dependency 'kramdown', '~> 0.14.1'
+  s.add_runtime_dependency 'AXElements', '6.0.0'
+  s.add_runtime_dependency 'minitest',   '~> 4.7'
 end

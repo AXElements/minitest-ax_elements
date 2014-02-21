@@ -1,0 +1,43 @@
+PATH
+  remote: .
+  specs:
+    minitest-ax_elements (6.0.0)
+      AXElements (= 6.0.0)
+      minitest (~> 4.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    AXElements (6.0.0)
+      accessibility_core (~> 0.4.1)
+      accessibility_keyboard (~> 1.0.0)
+      activesupport (~> 4.0.1)
+      mouse (~> 2.0.0)
+      screen_recorder (~> 0.1.5)
+    accessibility_core (0.4.3)
+    accessibility_keyboard (1.0.0)
+    activesupport (4.0.3)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    atomic (1.1.14)
+    i18n (0.6.9)
+    kramdown (1.3.2)
+    minitest (4.7.5)
+    mouse (2.0.1)
+    multi_json (1.8.4)
+    screen_recorder (0.1.5)
+    thread_safe (0.1.3)
+      atomic
+    tzinfo (0.3.38)
+    yard (0.8.7.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kramdown
+  minitest-ax_elements!
+  yard
