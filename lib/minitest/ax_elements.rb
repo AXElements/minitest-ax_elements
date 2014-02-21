@@ -5,7 +5,7 @@ require 'accessibility/dsl'
 ##
 # AXElements assertions for MiniTest.
 # [Learn more about minitest.](https://github.com/seattlerb/minitest)
-class MiniTest::Assertions
+module MiniTest::Assertions
 
   ##
   # Test that an element has a specific child. For example, test
