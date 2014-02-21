@@ -1,6 +1,4 @@
-require 'ax/element'
-require 'accessibility/qualifier'
-require 'accessibility/dsl'
+require 'ax_elements'
 
 ##
 # AXElements assertions for MiniTest.
